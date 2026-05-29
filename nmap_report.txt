@@ -1,0 +1,24 @@
+# Nmap 7.98 scan initiated Fri May 29 06:07:28 2026 as: /usr/lib/nmap/nmap -sS -oN nmap_report.txt 10.0.2.0/24
+Nmap scan report for 10.0.2.2
+Host is up (0.0052s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+903/tcp  open  iss-console-mgr
+7070/tcp open  realserver
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+
+Nmap scan report for 10.0.2.3
+Host is up (0.00084s latency).
+Not shown: 999 filtered tcp ports (net-unreach)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 52:55:0A:00:02:03 (Unknown)
+
+Nmap scan report for 10.0.2.15
+Host is up.
+All 1000 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+# Nmap done at Fri May 29 06:11:08 2026 -- 256 IP addresses (3 hosts up) scanned in 220.00 seconds
